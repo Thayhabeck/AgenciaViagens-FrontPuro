@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Habeck Turismo - Destinos</title>
+    <link rel="shortcut icon" type="imagex/png" href="./imagens/iconHead.ico">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/funcoes.js"></script>
+</head>
+
+<body>
+    <!--Início do menu-->
+    <nav class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-titulo">
+                <img src="./imagens/LogoSGV.svg" alt="Logo">
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/destinos.html">Destinos</a>
+            <a href="/promocoes.html">Promoções</a>
+            <a href="/contato.html">Contato</a>
+        </div>
+    </nav>
+    <!--Fim do menu-->
+    <header class="header-pags">
+        <figure>
+            <img src="./imagens/aviaocoracaoesq.svg" alt="Avião">
+        </figure>
+        <h2>Nossos Destinos</h2>
+        <figure>
+            <img src="./imagens/aviaocoracaodir.svg" alt="Avião">
+        </figure>
+    </header>
+    <hr>
+
+    <main class="main-pags">
+        <aside class="categorias">
+            <h2>Categorias</h2>
+            <div class="categ-links">
+                <a onclick="exibirTodos('todos')">Todo o Brasil (24)</a>
+                <a onclick="exibirCateg('norte')">Região Norte (4)</a>
+                <a onclick="exibirCateg('nordeste')">Região Nordeste (5)</a>
+                <a onclick="exibirCateg('sul')">Região Sul (5)</a>
+                <a onclick="exibirCateg('sudeste')">Região Sudeste (7)</a>
+                <a onclick="exibirCateg('oeste')">Região Centro-Oeste (3)</a>
+            </div>
+        </aside>
+        <section class="destinos">
+            <div class="box_destino" id="nordeste">
+                <img src="./imagens/Destinos/Acarati-canoaqueb.jpg">
+                <p class="descricao">Acarati - CE</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 228,05</p>
+            </div>
+            <div class="box_destino" id="oeste">
+                <img src="./imagens/Destinos/altoparaiso-chapadaVead.jpg">
+                <p class="descricao">Alto paraíso de goiás - GO</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 197,05</p>
+            </div>
+            <div class="box_destino" id="sudeste">
+                <img src="./imagens/Destinos/arraial-do-cabo.jpg">
+                <p class="descricao">Arraial do Cabo - RJ</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 304,00</p>
+            </div>
+            <div class="box_destino" id="nordeste">
+                <img src="./imagens/Destinos/Barreirinhas-Lencois-Maranhenses.jpg">
+                <p class="descricao">Barreirinhas - MA</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 257,05</p>
+            </div>
+            <div class="box_destino" id="norte">
+                <img src="./imagens/Destinos/belemPA.jpg">
+                <p class="descricao">Belém - PA</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 186,80</p>
+            </div>
+            <div class="box_destino" id="sudeste">
+                <img src="./imagens/Destinos/bonitoms.png">
+                <p class="descricao">Bonito - MG</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 179,80</p>
+            </div>
+            <div class="box_destino" id="oeste">
+                <img src="./imagens/Destinos/brasilia.jpg">
+                <p class="descricao">Brasília - DF</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 218,00</p>
+            </div>
+            <div class="box_destino" id="sudeste">
+                <img src="./imagens/Destinos/buziosrj.jpg">
+                <p class="descricao">Búzios - RJ</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 299,90</p>
+            </div>
+            <div class="box_destino" id="sudeste">
+                <img src="./imagens/Destinos/Capitoliomg.jpg">
+                <p class="descricao">Capitólio - MG</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 172,30</p>
+            </div>
+            <div class="box_destino" id="oeste">
+                <img src="./imagens/Destinos/chapadaguiMT.jpg">
+                <p class="descricao">Chapada dos Guimarães - MT</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 243,00</p>
+            </div>
+            <div class="box_destino" id="sul">
+                <img src="./imagens/Destinos/curitiba.jpg">
+                <p class="descricao">Curitiba - PR</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 304,00</p>
+            </div>
+            <div class="box_destino" id="nordeste">
+                <img src="./imagens/Destinos/Fernando-de-Noronha.jpg">
+                <p class="descricao">Fernando de Noronha - PE</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 402,00</p>
+            </div>
+            <div class="box_destino" id="sul">
+                <img src="./imagens/Destinos/floripa.jpg">
+                <p class="descricao">Florianópolis - SC</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 345,00</p>
+            </div>
+            <div class="box_destino" id="sul">
+                <img src="./imagens/Destinos/foziguacu.jpg">
+                <p class="descricao">Foz do Iguaçu - PR</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 498,80</p>
+            </div>
+            <div class="box_destino" id="sul">
+                <img src="./imagens/Destinos/gramado.jpg">
+                <p class="descricao">Gramado - RS</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 320,00</p>
+            </div>
+            <div class="box_destino" id="norte">
+                <img src="./imagens/Destinos/ilhamarajoPA.jpg">
+                <p class="descricao">Ilha de Marajó - PA</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 264,80</p>
+            </div>
+            <div class="box_destino" id="norte">
+                <img src="./imagens/Destinos/manaus.jpg">
+                <p class="descricao">Manaus - AM</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 199,00</p>
+            </div>
+            <div class="box_destino" id="nordeste">
+                <img src="./imagens/Destinos/maragogi.jpg">
+                <p class="descricao">Maragogi - AL</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 219,99</p>
+            </div>
+            <div class="box_destino" id="norte">
+                <img src="./imagens/Destinos/palmasTO.jpg">
+                <p class="descricao">Palmas - TO</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 185,00</p>
+            </div>
+            <div class="box_destino" id="sul">
+                <img src="./imagens/Destinos/penha-berocarrero.jpg">
+                <p class="descricao">Penha - SC</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 302,70</p>
+            </div>
+            <div class="box_destino" id="sudeste">
+                <img src="./imagens/Destinos/Poçosdecaldasmg.jpg">
+                <p class="descricao">Poços de Caldas - MG</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 177,00</p>
+            </div>
+            <div class="box_destino" id="nordeste">
+                <img src="./imagens/Destinos/Porto-Seguro.jpg">
+                <p class="descricao">Porto Seguro - BA</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 240,00</p>
+            </div>
+            <div class="box_destino" id="sudeste">
+                <img src="./imagens/Destinos/rio-de-janeiro.jpg">
+                <p class="descricao">Rio de Janeiro - RJ</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 342,70</p>
+            </div>
+            <div class="box_destino" id="sudeste">
+                <img src="./imagens/Destinos/sao-paulo.jpg">
+                <p class="descricao">São Paulo - SP</p>
+                <hr>
+                <p class="diarias">Diárias a partir de</p>
+                <p class="preco">R$ 240,09</p>
+            </div>
+        </section>
+    </main>
+    <footer id="rodape">
+        <a href="https://www.recodepro.org.br/" target="_blank">&copy; 2021 - ThayHabeck - <img src="./imagens/recodepro.png"
+                alt=""></a>
+    </footer>
+</body>
+
+</html>
