@@ -43,22 +43,29 @@
         </figure>
     </header>
     <hr>
-    
-    <main class="main-pags">
-        
-        <form>
-            <h4>Nome: </h4>
-            <input type="text" style="width: 400px;">
-            <h4>Mensagem: </h4>
-            <textarea style="width: 400px;"></textarea>
 
-            <input type="submit" value="Enviar">
-        </form>
+    <main class="main-pags">
+        <div class="contato">
+            <figure>
+                <img src="./imagens/contato.svg" alt="Contato">
+            </figure>
+            <form id="contForm">
+                <label>Nome: </label><br>
+                <input class="input" type="text"><br>
+                <label>E-mail: </label><br>
+                <input class="input" type="email"><br>
+                <label>Mensagem:  </label><br>
+                <textarea name="msg" id="msg"></textarea><br>
+                <input id="btn-enviar" type="submit" value="Enviar">
+            </form>
+        </div>
     </main>
 
+    
+    <script src="./js/script.js"></script>
 
     <footer id="rodape">
-        <a href="https://www.recodepro.org.br/" target="_blank">&copy; 2021 - ThayHabeck -  <img src="./imagens/recodepro.png" alt=""></a>
+        <a href="https://www.recodepro.org.br/" target="_blank">&copy; 2021 - ThayHabeck - <img src="./imagens/recodepro.png" alt=""></a>
     </footer>
 </body>
 

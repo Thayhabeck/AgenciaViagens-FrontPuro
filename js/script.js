@@ -18,3 +18,17 @@ let exibirTodos = () => {
     }
 }
 
+let carrinho = () => {
+    alert("O destino foi adicionado ao carrinho!\nObrigado!")
+}
+
+let enviar = document.querySelector('#btn-enviar');
+console.log(enviar.textContent);
+
+enviar.addEventListener("click",function(event){
+    event.preventDefault();
+    console.log("Clicou no botão");
+    let Form = document.querySelector("#contForm");
+    alert("Recebemos sua mensagem, e entraremos em contato!\nObrigado!");
+    Form.reset();
+})
