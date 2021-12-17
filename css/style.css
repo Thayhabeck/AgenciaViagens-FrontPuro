@@ -277,7 +277,7 @@ footer > a > img{
   height:var(--foto-height);
   padding:1.5em;
   background-size:cover;
-  background-position: center;
+  background-position:bottom;
   color:white;
   text-shadow: 1px 1px 2px #000;
   display:flex;
